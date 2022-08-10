@@ -26,7 +26,7 @@
 /* media query */
 @media(max-width:768px){
     .hero-text{
-        width: 70%;
+        width: 100%;
     }
     .hero-intro{
         font-size: 14px;
