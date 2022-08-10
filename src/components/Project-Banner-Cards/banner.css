@@ -1,0 +1,50 @@
+.banner-container{
+    margin: auto;
+    width:100%;
+    color: white;
+    border-bottom: 1px solid #9caea9;
+}
+.banner{
+    margin: auto;
+    width: 100%;
+    height: 80%;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.banner-info{
+    display: grid;
+    grid-template-columns:20% 100%;
+    margin: 2em 0;
+}
+.banner-info h1{
+    margin: 0 2em;
+}
+.project-type{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+.more-info{
+    width: 50%
+}
+.more-info h1{
+    margin-left: 0;
+    font-weight: 400;
+}
+.project-description{
+    font-size: 14px;
+    font-weight: 300;
+    color: #9caea9;
+}
+
+@media(max-width:768px){
+    .banner-info{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
+    }
+    .more-info{
+        width: 80%;
+    }
+}

@@ -1,0 +1,94 @@
+.nav{
+    margin: auto;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+    align-items: center;
+    
+}
+.logo{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+.subtitle{
+    font-size: 8px;
+    font-weight: 400;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    width: 3rem;
+    height: 1rem;
+    background: none;
+    border: none;
+}
+
+.off{
+    display: none;
+}
+.hamburger{
+    width: 3rem;
+    height: 1rem;
+    color: #fafbfa;
+}
+
+/* menu */
+.menu-bg{
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.menu-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    width:100%;
+    height: 100%;
+}
+
+
+.cancel{
+    color: black;
+    text-align: right;
+    padding: 3em 7em;
+}
+.cancel button{
+    width: 3rem;
+    height: 2.5rem;
+    background-color: #1f1f1f;
+    cursor: pointer;
+    color: white;
+}
+
+.menu-container ul{
+    margin: 3em 0;
+    text-align: center;
+}
+.menu-container ul li{
+    list-style: none;
+    padding: 0.5em 0;
+}
+.menu-container ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.menu{
+    background: white;
+    width: 50%;
+    height: 20rem;
+}
+
